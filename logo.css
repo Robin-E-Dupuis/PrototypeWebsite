@@ -1,0 +1,40 @@
+#Logo{
+position:sticky;
+top:0px;
+border-radius: 90px;
+animation: myLogo;
+animation-duration: 6s;
+animation-timing-function: ease;
+animation-delay: 1s;
+}
+
+@keyframes myLogo{
+    from{margin-left:100%;}
+    to{margin-left:0%}
+}
+
+#tiktok{
+    position:relative;
+    border-radius:360px;
+     margin-left: 5px;
+   
+}
+#etsy{
+    position:relative;
+    border-radius: 360px;
+    margin-left:50px;
+}
+#insta{
+    position:relative;
+    border-radius: 360px;
+    margin-left:40px;
+}
+
+#venmo{
+    position: relative;
+    margin-left:0px;
+}
+#paypal{
+    position:relative;
+    margin-left:0px;
+}
